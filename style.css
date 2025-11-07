@@ -453,6 +453,149 @@ html{
     padding: 1rem 0.5rem;
   }
 }
+.poc-card {
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.poc-card:hover {
+  transform: translateY(-5px);
+}
+
+.poc-modal-content {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+/* Specific styles for Fuel Genie modal */
+#pocModal2 .poc-modal-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  padding: 25px;
+}
+
+#pocModal2 .poc-modal-img {
+  width: 100%;
+  height: 400px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  #pocModal2 .poc-modal-content {
+    grid-template-columns: 1fr;
+  }
+  
+  #pocModal2 .poc-modal-img {
+    height: 300px;
+  }
+}
+
+.poc-modal-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+  padding: 8px;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.poc-modal-close:hover {
+  opacity: 1;
+}
+
+.poc-modal-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.poc-modal-text {
+  padding: 30px;
+}
+
+.poc-modal-text h3 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.contribution-highlight {
+  color: #003366;
+  font-weight: 500;
+  font-size: 1.1em;
+  margin-bottom: 15px;
+  padding: 10px;
+  background: rgba(93, 253, 203, 0.1);
+  border-radius: 6px;
+}
+
+.contribution-section {
+  margin-bottom: 25px;
+  padding: 15px;
+  background: rgba(144, 215, 255, 0.1);
+  border-radius: 8px;
+}
+
+.contribution-section ul {
+  margin-top: 12px;
+}
+
+.contribution-section li {
+  color: #444;
+  padding-left: 5px;
+}
+
+.poc-modal-details {
+  margin-top: 20px;
+  color: #666;
+}
+
+.poc-modal-details strong {
+  color: #333;
+}
+
+.poc-modal-details ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.poc-modal-details li {
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.architecture-section {
+  margin-bottom: 25px;
+  padding: 15px;
+  background: rgba(93, 253, 203, 0.05);
+  border-radius: 8px;
+}
+
+.architecture-section h4 {
+  color: #003366;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.core-tech {
+  margin-top: 10px;
+}
+
+.core-tech ul {
+  margin-top: 12px;
+}
+
+.features-section ul li {
+  color: #444;
+}
+
 .container3 {
   position: relative;
   width: 320px;
@@ -627,5 +770,158 @@ html{
   padding-top: 3%;
     background-color: bisque;
     margin:0%;
-    
+}
+
+/* Fuel Genie Modal Specific Styles */
+#pocModal2 .modal-dialog {
+  max-width: 1000px;
+}
+
+#pocModal2 .fuel-genie-layout {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+#pocModal2 .fuel-genie-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+#pocModal2 .fuel-genie-img-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+#pocModal2 .fuel-genie-img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  padding: 10px;
+  transition: transform 0.3s ease;
+}
+
+#pocModal2 .fuel-genie-img:hover {
+  transform: scale(1.05);
+}
+
+#pocModal2 .poc-modal-text {
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  #pocModal2 .fuel-genie-images {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  
+  #pocModal2 .fuel-genie-img {
+    height: 250px;
+  }
+}
+
+/* Remove old conflicting styles */
+#pocModal2 .modal-image-section,
+#pocModal2 .poc-modal-content.grid-layout {
+  display: none;
+}
+
+/* POC Showcase Section */
+.poc-section {
+  /* background: linear-gradient(to right, #f8f9fa, #e9ecef); */
+  background-image: linear-gradient(to right, #5DFDCB, #90D7FF);
+  padding: 4rem 0;
+  overflow: hidden;
+}
+
+.poc-title {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-family: 'Carter One', cursive;
+  color: #2d3436;
+}
+
+.poc-showcase {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0 2rem;
+}
+
+.poc-card {
+  background: white;
+  border-radius: 15px;
+  padding: 2rem;
+  width: 340px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.poc-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.poc-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 1.5rem;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #5DFDCB, #90D7FF);
+}
+
+.poc-icon i {
+  font-size: 2rem;
+  color: white;
+}
+
+.poc-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #2d3436;
+}
+
+.poc-description {
+  color: #636e72;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.poc-status {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.poc-status.completed {
+  background: #5DFDCB;
+  color: #004d40;
+}
+
+.poc-status.in-progress {
+  background: #90D7FF;
+  color: #01579b;
+}
+
+@media (max-width: 768px) {
+  .poc-showcase {
+    padding: 0 1rem;
+  }
+  
+  .poc-card {
+    width: 100%;
+  }
 }
