@@ -949,6 +949,11 @@ html {
     width: 100%;
   }
 }
+
+#extraContent {
+  margin: 3%;
+}
+
 body2 {
   background: linear-gradient(135deg, #eaeaea, #ffffff);
   padding: 3%;
