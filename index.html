@@ -46,6 +46,9 @@
           <li class="nav-item">
             <a class="nav-link" href="#office">Professional</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#year2026">2026</a>
+          </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">My projects
@@ -91,7 +94,7 @@
           <h1 id="mainheading">I'm Varsha</h1>
           <p><b>Hearty Thanks for visiting my portfolio</b></p>
 
-          <p>I am a Software Development Engineer with a strong foundation in Computer Science and a passion for
+          <p>I am a Software Development Engineer 2 with a strong foundation in Computer Science and a passion for
             building scalable and efficient software solutions. I aim to take on challenging roles that foster
             continuous learning and professional growth, while being resourceful, innovative, and adaptable in
             real-world development environments.</p>
@@ -118,7 +121,7 @@
           <h1 id="aboutmyself">ABOUT MYSELF</h1>
           <br>
           <p style="font-size:20px;">
-            Computer Science Engineering graduate and Software Engineer, contributing to enterprise applications using
+            Computer Science Engineering graduate and Software Development Engineer 2, contributing to enterprise applications using
             Angular.
             Skilled in MERN stack and Python, with a focus on backend development, API integration, and server-side
             logic.
@@ -380,13 +383,17 @@
 
 
       <div class="highlight-badges">
-        <span>🧹 1000+ Linter Fixes</span>
+        <span>📌 360+ Story Points (Aug 2024 - Sep 2026)</span>
+        <span>🐞 170+ Bugs Fixed (Aug 2024 - Sep 2026)</span>
+        <span>🚀 20+ Solo Features (Aug 2024 - Sep 2026)</span>
+        <span>📖 117 + User Stories (Aug 2024 - Sep 2026)</span>
+        <br>
+        <span>🧹 1000+ Linter Fixes</span> <span>🌪️ Feature Delivery</span>
         <span>🗓️ Large-Scale Migration (170 + files)</span>
+                <span>🧪 Contract Testing</span>
         <span>🧩 Circular Dependency Refactoring</span>
         <br>
         <span>🤖 AI-Assisted Dev</span>
-        <span>🌪️ Feature Delivery</span>
-        <span>🧪 Contract Testing</span>
       </div>
 
       <!-- Item -->
@@ -484,7 +491,7 @@
           <ul>
             <li>Resolved critical P2 issues requiring redesign of feature logic, including state handling and UI
               consistency</li>
-            <li>Fixed 15+ high-priority bugs and 70+ total issues, improving product stability</li>
+            <li>Fixed 50+ high-priority bugs and 120+ total issues, improving product stability</li>
             <li>Handled edge cases across environments, accounts, OS compatibility, and localization</li>
             <li>Improved user experience by fixing UI flickering, alignment, and system-specific issues</li>
             <li>
@@ -498,11 +505,611 @@
     </div>
   </section>
 
+  <!-- 2026 Yearly Snapshot: Timeline -->
+  <section id="year2026">
+    <style>
+      /* ---- Theme-matched section (mint -> sky palette) ---- */
+      #year2026 {
+        padding: 40px 20px 55px;
+        background-image: linear-gradient(to right, #5dfdcb, #90d7ff);
+        color: #0b2a3a;
+      }
+      #year2026 .yr-wrap { max-width: 1200px; margin: 0 auto; }
+      #year2026 .yr-head { text-align: center; margin-bottom: 22px; }
+      #year2026 .yr-head h1 {
+        font-family: 'Combo', cursive;
+        font-size: 2.4rem;
+        color: #003366;
+        margin: 0;
+        line-height: 1.15;
+      }
+      #year2026 .yr-head p {
+        font-family: 'Segoe UI', sans-serif;
+        color: #123a52;
+        font-size: 0.98rem;
+        margin: 6px 0 0;
+      }
+
+      /* Hero stats strip */
+      #year2026 .yr-hero {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        gap: 10px;
+        margin-bottom: 26px;
+      }
+      #year2026 .yr-hero .stat {
+        background: #ffffff;
+        border-radius: 12px;
+        padding: 12px 10px;
+        text-align: center;
+        box-shadow: 0 4px 12px rgba(0, 51, 102, 0.10);
+        border: 2px solid #00809D;
+      }
+      #year2026 .yr-hero .stat h3 {
+        margin: 0;
+        font-family: 'Carter One', cursive;
+        color: #003366;
+        font-size: 1.6rem;
+      }
+      #year2026 .yr-hero .stat p {
+        margin: 2px 0 0;
+        color: #34556b;
+        font-size: 0.78rem;
+        font-weight: 600;
+      }
+
+      /* Timeline — 3 columns on desktop with a connecting rail */
+      #year2026 .yr-timeline {
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+        padding: 26px 0 4px;
+      }
+      #year2026 .yr-timeline::before {
+        content: '';
+        position: absolute;
+        top: 18px;
+        left: 6%;
+        right: 6%;
+        height: 3px;
+        background: #003366;
+        border-radius: 2px;
+        opacity: 0.6;
+      }
+      #year2026 .yr-item { position: relative; }
+      #year2026 .yr-item::before {
+        content: '';
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        background: #ffffff;
+        border: 4px solid #003366;
+        transform: translateX(-50%);
+        z-index: 2;
+        box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.6);
+      }
+
+      #year2026 .yr-card {
+        margin-top: 36px;
+        background: #ffffff;
+        border-radius: 14px;
+        padding: 16px 18px 18px;
+        box-shadow: 0 6px 18px rgba(0, 51, 102, 0.12);
+        border-top: 4px solid #00809D;
+        font-family: 'Segoe UI', sans-serif;
+        height: calc(100% - 36px);
+      }
+      #year2026 .yr-tag {
+        display: inline-block;
+        background: linear-gradient(to right, #5dfdcb, #90d7ff);
+        color: #003366;
+        font-family: 'Carter One', cursive;
+        font-size: 0.85rem;
+        padding: 3px 12px;
+        border-radius: 20px;
+        border: 2px solid #00809D;
+        margin-bottom: 8px;
+        letter-spacing: 0.3px;
+      }
+      #year2026 .yr-card h3 {
+        margin: 4px 0 10px;
+        font-family: 'Combo', cursive;
+        color: #003366;
+        font-size: 1.15rem;
+        line-height: 1.2;
+      }
+      #year2026 .yr-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+      #year2026 .yr-chip {
+        background: #1f2937;
+        color: #ffffff;
+        font-size: 0.72rem;
+        padding: 4px 10px;
+        border-radius: 20px;
+        font-weight: 600;
+        transition: 0.3s;
+      }
+      #year2026 .yr-chip:hover {
+        background: linear-gradient(to right, #5dfdcb, #90d7ff);
+        color: #003366;
+      }
+      #year2026 .yr-sub {
+        font-family: 'Carter One', cursive;
+        font-size: 0.78rem;
+        color: #00809D;
+        letter-spacing: 0.4px;
+        margin: 10px 0 4px;
+      }
+      #year2026 .yr-card ul { margin: 0 0 4px; padding-left: 16px; }
+      #year2026 .yr-card li {
+        font-size: 0.83rem;
+        color: #1f2937;
+        margin: 3px 0;
+        line-height: 1.45;
+      }
+      #year2026 .yr-note {
+        margin-top: 8px;
+        padding: 8px 10px;
+        background: #f0fff4;
+        border-left: 3px solid #26a69a;
+        font-size: 0.75rem;
+        color: #123a52;
+        border-radius: 4px;
+      }
+
+      #year2026 .yr-date {
+        display: block;
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 0.72rem;
+        color: #00809D;
+        font-weight: 700;
+        letter-spacing: 0.3px;
+        margin: 2px 0 6px;
+      }
+
+      /* Beyond delivery — compact grid */
+      #year2026 .yr-beyond { margin-top: 32px; }
+      #year2026 .yr-beyond-title {
+        text-align: center;
+        font-family: 'Combo', cursive;
+        font-size: 1.5rem;
+        color: #003366;
+        margin: 0 0 4px;
+      }
+      #year2026 .yr-beyond-sub {
+        text-align: center;
+        font-family: 'Segoe UI', sans-serif;
+        color: #123a52;
+        margin-bottom: 16px;
+        font-size: 0.9rem;
+      }
+      #year2026 .yr-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+        gap: 12px;
+      }
+      #year2026 .yr-block {
+        background: #ffffff;
+        border-radius: 12px;
+        padding: 14px 16px;
+        box-shadow: 0 4px 12px rgba(0, 51, 102, 0.10);
+        border-left: 4px solid #00809D;
+        font-family: 'Segoe UI', sans-serif;
+      }
+      #year2026 .yr-block h4 {
+        margin: 0 0 6px;
+        font-family: 'Carter One', cursive;
+        font-size: 0.95rem;
+        color: #003366;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+      #year2026 .yr-block h4 .ic { font-size: 1.05rem; }
+      #year2026 .yr-block ul { margin: 0; padding-left: 16px; }
+      #year2026 .yr-block li {
+        font-size: 0.8rem;
+        color: #1f2937;
+        margin: 3px 0;
+        line-height: 1.4;
+      }
+
+      /* Impact themes footer */
+      #year2026 .yr-themes { margin-top: 28px; text-align: center; }
+      #year2026 .yr-themes h4 {
+        font-family: 'Combo', cursive;
+        font-size: 1.25rem;
+        color: #003366;
+        margin: 0 0 10px;
+      }
+      #year2026 .yr-themes .yr-theme-chip {
+        display: inline-block;
+        background: #1f2937;
+        color: #ffffff;
+        font-size: 0.75rem;
+        padding: 5px 12px;
+        border-radius: 20px;
+        margin: 3px;
+        font-weight: 600;
+        transition: 0.3s;
+      }
+      #year2026 .yr-themes .yr-theme-chip:hover {
+        background: linear-gradient(to right, #5dfdcb, #90d7ff);
+        color: #003366;
+        transform: scale(1.05);
+      }
+
+      /* Responsive */
+      @media (max-width: 900px) {
+        #year2026 .yr-timeline { grid-template-columns: 1fr; }
+        #year2026 .yr-timeline::before { display: none; }
+        #year2026 .yr-item::before { display: none; }
+        #year2026 .yr-card { margin-top: 0; height: auto; }
+      }
+
+      /* Sub-section folds — invisible on desktop, collapsible on mobile */
+      #year2026 details.yr-fold { margin: 0; }
+      #year2026 details.yr-fold > summary {
+        list-style: none;
+        cursor: default;
+        display: block;
+      }
+      #year2026 details.yr-fold > summary::-webkit-details-marker { display: none; }
+      #year2026 details.yr-fold > summary::marker { content: ""; }
+      #year2026 details.yr-fold > summary.yr-sub { /* inherits .yr-sub styling */ }
+
+      /* Desktop-only lock: never let the toggle collapse */
+      @media (min-width: 901px) {
+        #year2026 details.yr-fold > summary { pointer-events: none; }
+      }
+
+      /* Mobile: activate progressive disclosure + tighter spacing */
+      @media (max-width: 900px) {
+        #year2026 { padding: 30px 14px 40px; }
+        #year2026 .yr-head h1 { font-size: 1.9rem; }
+        #year2026 .yr-head p { font-size: 0.88rem; }
+
+        #year2026 .yr-hero { grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 8px; margin-bottom: 18px; }
+        #year2026 .yr-hero .stat { padding: 10px 8px; }
+        #year2026 .yr-hero .stat h3 { font-size: 1.35rem; }
+        #year2026 .yr-hero .stat p { font-size: 0.7rem; }
+
+        #year2026 .yr-timeline { gap: 12px; padding: 6px 0 4px; }
+        #year2026 .yr-card { padding: 14px 14px 16px; }
+        #year2026 .yr-card h3 { font-size: 1.05rem; }
+        #year2026 .yr-card li { font-size: 0.8rem; line-height: 1.4; }
+        #year2026 .yr-chip { font-size: 0.68rem; padding: 3px 8px; }
+
+        #year2026 details.yr-fold > summary {
+          cursor: pointer;
+          position: relative;
+          padding: 4px 22px 4px 0;
+          border-top: 1px solid rgba(0, 128, 157, 0.15);
+          margin-top: 6px;
+        }
+        #year2026 details.yr-fold:first-of-type > summary { border-top: 0; margin-top: 4px; }
+        #year2026 details.yr-fold > summary::after {
+          content: '▾';
+          position: absolute;
+          right: 2px;
+          top: 50%;
+          transform: translateY(-50%);
+          font-size: 0.75rem;
+          color: #00809D;
+          transition: transform 0.2s;
+        }
+        #year2026 details.yr-fold:not([open]) > summary::after {
+          transform: translateY(-50%) rotate(-90deg);
+        }
+
+        #year2026 .yr-block { padding: 12px 14px; }
+        #year2026 .yr-block li { font-size: 0.78rem; }
+        #year2026 .yr-themes { margin-top: 22px; padding: 0 6px; }
+        #year2026 .yr-themes h4 { font-size: 1.1rem; margin-bottom: 12px; }
+        #year2026 .yr-themes .yr-theme-wrap {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 6px 6px;
+        }
+        #year2026 .yr-themes .yr-theme-chip {
+          margin: 0;
+          font-size: 0.7rem;
+          padding: 5px 10px;
+          line-height: 1.2;
+          white-space: nowrap;
+          border-radius: 14px;
+        }
+        #year2026 .yr-beyond-title { font-size: 1.25rem; }
+        #year2026 .yr-beyond-sub { font-size: 0.82rem; }
+      }
+    </style>
+
+    <div class="yr-wrap">
+      <div class="yr-head">
+        <h1>🌟 2026 Year in Review</h1>
+        <p>A quarter-by-quarter snapshot of ownership, delivery &amp; technical highlights</p>
+      </div>
+
+      <!-- Hero stats -->
+      <div class="yr-hero">
+        <div class="stat"><h3>210+</h3><p>Story Points</p></div>
+        <div class="stat"><h3>90+</h3><p>Bugs Fixed</p></div>
+        <div class="stat"><h3>14+</h3><p>Features Solo</p></div>
+        <div class="stat"><h3>3</h3><p>Teams</p></div>
+        <div class="stat"><h3>Low</h3><p>Post-Deploy Defects (Q3)</p></div>
+      </div>
+
+      <!-- Horizontal 3-column timeline -->
+      <div class="yr-timeline">
+
+        <!-- Q1 -->
+        <div class="yr-item">
+          <div class="yr-card">
+            <span class="yr-tag">Q1 2026</span>
+            <span class="yr-date">Jan 2 – Mar 30</span>
+            <h3>Multi-Team Contribution &amp; Rapid Learning</h3>
+            <div class="yr-chips">
+              <span class="yr-chip">90+ story points</span>
+              <span class="yr-chip">45+ Bugs</span>
+              <span class="yr-chip">3 Teams</span>
+            </div>
+
+            <details class="yr-fold" open>
+              <summary class="yr-sub">Team A — End-to-End Ownership</summary>
+              <ul>
+                <li>Delivered a <b>safety-events review module</b> end-to-end — base + integration user stories: full-page modal, group-by-asset toggle view, geofence-under-location display (<b>16 SP</b> dev + <b>22 bugs</b> fixed)</li>
+                <li>Implemented a <b>third-party allow-list / permission check</b> under a tight, last-minute timeline</li>
+                <li>Built a <b>reusable custom PDF viewer library</b> from scratch for a recommendations feature (~<b>15 SP</b>)</li>
+                <li>Bug fixes in a fault-codes health view (<b>5 bugs</b>) and a hardware-analytics module — cross-feature stabilization</li>
+              </ul>
+            </details>
+
+            <details class="yr-fold" open>
+              <summary class="yr-sub">Team B — Reports &amp; Tech Highlights</summary>
+              <ul>
+                <li>Delivered an end-to-end <b>2D histogram reporting</b> feature with team-wide UI/chart-rendering support (~<b>26 SP</b> in 2 sprints)</li>
+                <li>Implemented <b>LTTB</b> (Largest Triangle Three Buckets) downsampling in Chart.js; authored a decision card <i>approved by leadership</i> after PO reviews</li>
+                <li>Resolved a <b>critical i18n / font-rendering</b> issue for Asian-language report downloads via Docker config + TTF fonts on an AWS Lambda layer</li>
+              </ul>
+            </details>
+
+            <details class="yr-fold" open>
+              <summary class="yr-sub">Team C — Onboarding Impact</summary>
+              <ul>
+                <li>Post-onboarding: shipped a <b>service-request modal redesign</b> and a <b>help-center cookies-required update</b>, plus targeted bug fixes</li>
+                <li>Averaged <b>~15 SP / sprint</b> across teams while balancing feature delivery + high-volume bug triage</li>
+              </ul>
+            </details>
+
+            <details class="yr-fold" open>
+              <summary class="yr-sub">New Tech</summary>
+              <div class="yr-chips">
+                <span class="yr-chip">Thymeleaf</span>
+                <span class="yr-chip">Highcharts</span>
+                <span class="yr-chip">Chart.js</span>
+                <span class="yr-chip">LTTB</span>
+                <span class="yr-chip">Lambda Layers</span>
+                <span class="yr-chip">CloudWatch</span>
+                <span class="yr-chip">SQS</span>
+                <span class="yr-chip">Secrets Manager</span>
+                <span class="yr-chip">Docker</span>
+              </div>
+            </details>
+          </div>
+        </div>
+
+        <!-- Q2 -->
+        <div class="yr-item">
+          <div class="yr-card">
+            <span class="yr-tag">Q2 2026</span>
+            <span class="yr-date">Mar 31 – Jun 9</span>
+            <h3>Sole Ownership on 4 Major Features</h3>
+            <div class="yr-chips">
+              <span class="yr-chip">45 story points</span>
+              <span class="yr-chip">~20 Bugs</span>
+              <span class="yr-chip">4 Features Solo</span>
+            </div>
+
+            <details class="yr-fold" open>
+              <summary class="yr-sub">Ownership</summary>
+              <ul>
+                <li>Redesigned a <b>customer-facing service request modal</b> — UI, UX, validation, form-state handling</li>
+                <li>Delivered a <b>managed-services-aware settings module</b> with 4+ supporting stories: bulk enable/disable, indicator + tooltip, row-level restrictions, service-level restrictions</li>
+                <li>Extended a <b>"reset to recommended"</b> flow to be managed-services aware</li>
+                <li>Updated a <b>help-center entry point</b> with hyperlink + required-cookies handling for reliable guided tours</li>
+              </ul>
+            </details>
+
+            <details class="yr-fold" open>
+              <summary class="yr-sub">Bugs &amp; Stability</summary>
+              <ul>
+                <li>Closed <b>~20 bugs</b> across operator-info, suspended-asset, planned-maintenance, buy-parts &amp; regression flows</li>
+                <li>Fixed <b>customer-reported</b> and cross-feature regression defects with quick turnaround</li>
+                <li>Averaged <b>~7.5 SP / sprint</b> while balancing feature delivery + bug triage</li>
+              </ul>
+            </details>
+
+            <details class="yr-fold" open>
+              <summary class="yr-sub">Impact &amp; Reuse</summary>
+              <ul>
+                <li>Drove a <b>shared common-library improvement</b> for reuse across products</li>
+                <li>Consistent single-owner, end-to-end delivery on every feature</li>
+              </ul>
+            </details>
+
+            <details class="yr-fold" open>
+              <summary class="yr-sub">Learning</summary>
+              <ul>
+                <li>Pluralsight — <b>AWS IaC with CloudFormation</b></li>
+                <li>Pluralsight — <b>Using TypeScript with React</b></li>
+                <li>Udemy — <b>Generative AI for Beginners</b> (foundations of LLMs, prompting &amp; use-cases)</li>
+                <li>Mentor discussions on domain modules for scope clarity</li>
+              </ul>
+            </details>
+          </div>
+        </div>
+
+        <!-- Q3 -->
+        <div class="yr-item">
+          <div class="yr-card">
+            <span class="yr-tag">Q3 2026</span>
+            <span class="yr-date">Jun 10 – Sep 15</span>
+            <h3>High-Throughput, High-Quality Delivery</h3>
+            <div class="yr-chips">
+              <span class="yr-chip">~77 story points</span>
+              <span class="yr-chip">10 Features Solo</span>
+              <span class="yr-chip">13 Stories</span>
+              <span class="yr-chip">27 Bugs</span>
+              <span class="yr-chip">Low Post-Deploy Defects</span>
+            </div>
+
+            <details class="yr-fold" open>
+              <summary class="yr-sub">Ownership — 10 Features Solo</summary>
+              <ul>
+                <li>Multiple legacy asset-management flow removals (core function, action-menu items, forms)</li>
+                <li>Inline <b>upgrade CTA</b> for subscription-limited rows on a utilization view</li>
+                <li><b>Global search</b> for third-party-sourced assets</li>
+                <li><b>Legacy → new media API migration</b> for the web platform</li>
+                <li><b>Auto-resolve logic</b> for a needs-review workflow — reduces manual triage</li>
+                <li><b>Landing-page redesign</b> (summary-as-landing)</li>
+                <li>Legacy dealer-setting cleanup</li>
+                <li><b>Zoomed-in default map view</b> in an event drawer</li>
+              </ul>
+            </details>
+
+            <details class="yr-fold" open>
+              <summary class="yr-sub">Tech &amp; Quality</summary>
+              <ul>
+                <li><b>Very low post-deploy defects</b> — strong self-review, unit tests, early QA collaboration</li>
+                <li>Prod-bug / regression / critical-path fixes across settings, safety, dealer, utilization, service-request &amp; work-order flows</li>
+                <li><b>i18n &amp; accessibility</b> fixes: tooltip translations, truncation, language-preference regressions</li>
+                <li>Partnered on <b>Pact contract-testing</b> and <b>Playwright regression</b> sweeps</li>
+                <li>Feature-flag + translation scaffolding for a WIP map view</li>
+                <li>Averaged <b>~10 SP / sprint</b> (~77 SP across 8 sprints) while shipping features solo + closing bugs with low post-deploy defects</li>
+              </ul>
+            </details>
+
+            </details>
+
+            <div class="yr-note">
+              <b>Also contributing:</b> targeted bug fixes on a share-modal feature; WIP part-owner on a fleet-map safety-locations view (feature flag + translations, page filters, scaffolded map + panel).
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Beyond Delivery -->
+      <div class="yr-beyond">
+        <div class="yr-beyond-title">💫 Beyond Delivery — Cross-Team, Community &amp; Culture</div>
+        <div class="yr-beyond-sub">Collaboration, ownership &amp; community initiatives spanning Q1–Q3</div>
+
+        <div class="yr-grid">
+
+          <div class="yr-block">
+            <h4><span class="ic">🤝</span>Cross-Team Collaboration</h4>
+            <ul>
+              <li>Worked closely with POs, feature owners, mentors, and superiors across multiple teams</li>
+              <li>Partnered with QA / SDET on contract-testing failures and regression sweeps</li>
+              <li>Supported dependent teams on API migrations and platform rollouts</li>
+              <li>Pitched technical optimizations to POs and secured sign-off (eg. <b><a style="text-decoration: none;" href="https://drive.google.com/file/d/1b3bw3OZuN2S4ruHH93FE5x_2XUJV94ac/view?usp=sharing">LTTB downsampling</a></b> for chart performance)</li>
+            </ul>
+          </div>
+
+          <div class="yr-block">
+            <h4><span class="ic">📰</span>Newsletter Team</h4>
+            <ul>
+              <li>Active all year — multiple monthly + a special edition</li>
+              <li>Delivered <b>solo end-to-end</b> and with the team</li>
+              <li>Owned templating, UI code, and <b>Figma design</b></li>
+              <li>Built a <b>Python row-banner maker</b> for contributor/event photo strips</li>
+              <li>Built a <b>newsletter agent</b> to streamline upcoming-edition development</li>
+              <li>Cross-division event, people &amp; product updates + editorial sync with managers &amp; superiors pre-publish</li>
+            </ul>
+          </div>
+
+          <div class="yr-block">
+            <h4><span class="ic">🤖</span>AI Usage Tracker</h4>
+            <ul>
+              <li>Tracker for <b>Copilot</b>, prompting quality, and <b>agentic AI</b> adoption</li>
+              <li>Metrics <b>epic-wise / feature-wise</b>: hours saved, agents used</li>
+              <li>Surfaces top adopters — who ships more code with Copilot / uses more agents</li>
+              <li>Powers <b>sprint Copilot Champions</b> + <b>Hours-Saved leaderboards</b> and AI value-case reports</li>
+            </ul>
+          </div>
+
+          <div class="yr-block">
+            <h4><span class="ic">🌟</span>Peer Recognition</h4>
+            <ul>
+              <li>Collect responses via an <b>MS Forms</b> submission — nothing gets lost in chat/email</li>
+              <li>Manually template each recognition for a consistent, easy-to-read display</li>
+              <li>Publish curated recognitions to the team's <b>digital board</b></li>
+              <li>Strengthens appreciation culture</li>
+            </ul>
+          </div>
+
+          <div class="yr-block">
+            <h4><span class="ic">📚</span>Learning Progress</h4>
+            <ul>
+              <li>Q1 ramp-up — Thymeleaf, Highcharts, Chart.js, LTTB, AWS Lambda Layers, CloudWatch, SQS, Secrets Manager, Docker</li>
+              <li>Q2 — Pluralsight: <b>AWS IaC with CloudFormation</b></li>
+              <li>Q2 — Pluralsight: <b>Using TypeScript with React</b></li>
+              <li>Q2 — Udemy: <b>Generative AI for Beginners</b></li>
+              <li>Q3 — <b>React Native</b> for cross-platform mobile development</li>
+              <li>Q3 — <b>Generative AI internals</b> from official docs (transformers, tokenization, embeddings)</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Impact themes -->
+      <div class="yr-themes">
+        <h4>🏷️ Impact Themes</h4>
+        <div class="yr-theme-wrap">
+          <span class="yr-theme-chip">End-to-End Sole Ownership</span>
+          <span class="yr-theme-chip">Low Post-Deploy Defect Rate</span>
+          <span class="yr-theme-chip">High Bug-Fix Velocity</span>
+          <span class="yr-theme-chip">Reusable Components</span>
+          <span class="yr-theme-chip">Infra &amp; Platform Problem-Solving</span>
+          <span class="yr-theme-chip">Decision Docs &amp; Reviews</span>
+          <span class="yr-theme-chip">Cross-Team Coordination</span>
+          <span class="yr-theme-chip">AI-Driven Productivity</span>
+          <span class="yr-theme-chip">Community &amp; Culture</span>
+        </div>
+      </div>
+
+    </div>
+
+    <script>
+      (function () {
+        if (!window.matchMedia('(max-width: 900px)').matches) return;
+        document.querySelectorAll('#year2026 .yr-card').forEach(function (card) {
+          card.querySelectorAll('details.yr-fold').forEach(function (d, i) {
+            if (i > 0) d.removeAttribute('open');
+          });
+        });
+      })();
+    </script>
+  </section>
+
 
   <!-- POC Showcase Section -->
   <section class="poc-section">
     <div class="container">
       <h2 class="poc-title">Proof of Concepts & Innovations</h2>
+      <div class="text-center" style="padding: 0 20px;">
+        <button class="btn rounded-pill px-4 py-2 fw-bold" type="button" data-bs-toggle="collapse"
+          data-bs-target="#pocShowcaseCollapse" aria-expanded="false" aria-controls="pocShowcaseCollapse"
+          style="font-family: 'Carter One', cursive; background: linear-gradient(135deg, #003366, #00809D); color: #ffffff; border: none; box-shadow: 0 6px 16px rgba(0, 51, 102, 0.35); letter-spacing: 0.5px; white-space: normal; max-width: 100%;">
+          💡 Click to View Proof of Concepts
+        </button>
+      </div>
+      <div class="collapse mt-4" id="pocShowcaseCollapse">
       <div class="poc-showcase">
 
         <div class="poc-card animate-fade-in-up" data-bs-toggle="modal" data-bs-target="#pocModal1">
@@ -563,6 +1170,7 @@
           <span class="poc-status completed">Completed</span>
         </div>
 
+      </div>
       </div>
     </div>
 
@@ -1908,7 +2516,15 @@
   </section>
 
 
-  <section style="padding-left:8%;" id="cocu">
+  <section id="cocu">
+    <div class="text-center" style="padding: 40px 20px 30px;">
+      <button class="btn rounded-pill px-4 py-2 fw-bold" type="button" data-bs-toggle="collapse"
+        data-bs-target="#cocuCollapse" aria-expanded="false" aria-controls="cocuCollapse"
+        style="font-family: 'Carter One', cursive; background: linear-gradient(135deg, #003366, #00809D); color: #ffffff; border: none; box-shadow: 0 6px 16px rgba(0, 51, 102, 0.35); letter-spacing: 0.5px; white-space: normal; max-width: 100%;">
+        🎉 View Co-Curricular Activities & Achievements
+      </button>
+    </div>
+    <div class="collapse" id="cocuCollapse" style="padding-left: 8%;">
     <div class="row" style="padding: 2%;">
       <div class="col-lg-6">
         <section id="new">
@@ -1919,101 +2535,50 @@
           </div>
 
           <div class="grid grid-flow-col auto-cols-max gap-6">
+
             <div class="grid__item item w-40 h-40 text-white relative" id="item1">
               <div class="item__content h-full w-full p-4 bg-black relative border-2" id="item__content">
-
-                <div class="font-bold mb-2">1. General Secretary of GLUGOT Association TCE CSE department (2023-2024)
+                <div class="font-bold mb-2" style="color: #90d7ff; font-size: 1rem;">🎓 Leadership &amp; Community</div>
+                <div style="font-size: 0.85rem; line-height: 1.55;">
+                  • General Secretary — GLUGOT Association, TCE CSE Department (2023–2024)<br>
+                  • <a href="https://drive.google.com/drive/folders/1QTJ4t6nFf25P9LPisedSBwZnZH0CvlQ4?usp=sharing" style="text-decoration: underline; color: #5dfdcb;">Organized several contests and created many posters as part of Glugot</a>
                 </div>
               </div>
             </div>
 
             <div class="grid__item item w-40 h-40 text-white relative" id="item1">
               <div class="item__content h-full w-full p-4 bg-black relative border-2" id="item__content">
-                <a href="https://drive.google.com/drive/folders/1QTJ4t6nFf25P9LPisedSBwZnZH0CvlQ4?usp=sharing">
-                  <div class="font-bold mb-2">2. Organized several contests and created many posters as part of Glugot
-                  </div>
-              </div>
-            </div>
-            </a>
-
-
-            <div class="grid__item item w-40 h-40 text-white relative" id="item1">
-              <div class="item__content h-full w-full p-4 bg-black relative border-2" id="item__content">
-                <a href="https://drive.google.com/file/d/1VrlJO_-1mOfGY5VjRjlGFZDWwlt_VNDy/view?usp=sharing">
-                  <div class="font-bold mb-2">3. Attended the In-Lab internship and gained insight into various SIGs
-                    at
-                    TCE.</div>
-              </div>
-            </div>
-            </a>
-            <div class="grid__item item w-40 h-40 text-white relative" id="item1">
-              <div class="item__content h-full w-full p-4 bg-black relative border-2" id="item__content">
-                <a href="https://www.youtube.com/watch?v=YesaxRCAd_Q">
-                  <div class="font-bold mb-2">4. Attended the Software Training on VR in Unity Engine and C# scripting
-                    at TCE.</div>
-              </div>
-            </div>
-            </a>
-
-            <div class="grid__item item w-40 h-40 text-white relative" id="item1">
-              <div class="item__content h-full w-full p-4 bg-black relative border-2 " id="item__content">
-                <a href="https://drive.google.com/file/d/1MSx7i0i6vurYZ76conzUKbXFKqc6HuSD/view?usp=sharing">
-                  <div class="font-bold mb-2">5. Participated and was Selected in the Internal Hackathon conducted by
-                    TCE.</div>
-              </div>
-            </div>
-            </a>
-            <div class="grid__item item w-40 h-40 text-white relative" id="item1">
-              <div class="item__content h-full w-full p-4 bg-black relative border-2" id="item__content">
-                <a href="https://drive.google.com/file/d/1Ti3tH11CAg2mo5RcsWl-MMQC9emLrpXL/view?usp=sharing">
-                  <div class="font-bold mb-2">6. Completed a course on "Getting Started with AI on Jetson Nano" from
-                    NVIDIA.</div>
-              </div>
-            </div>
-            </a>
-            <div class="grid__item item w-40 h-40 text-white relative" id="item1">
-              <div class="item__content h-full w-full p-4 bg-black relative border-2" id="item__content">
-                <a href="https://drive.google.com/file/d/1nSFOBjua78cHRg0dGXHFNu5WW54Ep1Pq/view?usp=share_link">
-                  <div class="font-bold mb-2">7. Presented Project Safe Driving assistant on Student Exhibit "Build
-                    Project" held at TCE.</div>
-              </div>
-            </div>
-            </a>
-            <div class="grid__item item w-40 h-40 text-white relative" id="item1">
-              <div class="item__content h-full w-full p-4 bg-black relative border-2" id="item__content">
-
-                <div class="font-bold mb-2">8. Working on a research paper on my project Stress deduction using CNN
-                  with
-                  my faculty.</div>
-              </div>
-            </div>
-
-            <!-- partial:index.partial.html -->
-
-            <div class="grid__item item w-40 h-40 text-white relative" id="item1">
-              <div class="item__content h-full w-full p-4 bg-black relative border-2" id="item__content">
-
-                <div class="font-semibold mb-2">9. Completed the Agile product and Entrepreneurship Development
-                  elective
-                  courses offered by TCE.</div>
+                <div class="font-bold mb-2" style="color: #90d7ff; font-size: 1rem;">🏆 Hackathons Participated</div>
+                <div style="font-size: 0.85rem; line-height: 1.55;">
+                  •  Selected in the Internal Hackathon at TCE</a><br>
+                  • <a href="https://drive.google.com/file/d/1D8jk6g0iEhTdbfO_xRjrlbdt8wG9ahjF/view?usp=sharing" style="text-decoration: underline; color: #5dfdcb;">TriNIT Hackathon by NIT Trichy</a><br>
+                  • <a href="https://drive.google.com/file/d/1jB5vcscSdp72TClXuONaRvr3bqD5tyG3/view?usp=sharing" style="text-decoration: underline; color: #5dfdcb;">Hackathon "Webster" by SVKM's NMIMS 2023 (qualified for finale)</a>
+                </div>
               </div>
             </div>
 
             <div class="grid__item item w-40 h-40 text-white relative" id="item1">
               <div class="item__content h-full w-full p-4 bg-black relative border-2" id="item__content">
-                <a href="https://drive.google.com/file/d/1D8jk6g0iEhTdbfO_xRjrlbdt8wG9ahjF/view?usp=sharing">
-                  <div class="font-bold mb-2">10. Participated in the TriNIT Hackathon conducted by NIT Trichy.</div>
+                <div class="font-bold mb-2" style="color: #90d7ff; font-size: 1rem;">📚 Learning &amp; Training</div>
+                <div style="font-size: 0.85rem; line-height: 1.55;">
+                  • <a href="https://drive.google.com/file/d/1Ti3tH11CAg2mo5RcsWl-MMQC9emLrpXL/view?usp=sharing" style="text-decoration: underline; color: #5dfdcb;">NVIDIA — Getting Started with AI on Jetson Nano</a><br>
+                  • <a href="https://www.youtube.com/watch?v=YesaxRCAd_Q" style="text-decoration: underline; color: #5dfdcb;">Software Training on VR in Unity Engine and C# scripting at TCE</a><br>
+                  • Agile Product and Entrepreneurship Development elective courses at TCE<br>
+                  • <a href="https://drive.google.com/file/d/1VrlJO_-1mOfGY5VjRjlGFZDWwlt_VNDy/view?usp=sharing" style="text-decoration: underline; color: #5dfdcb;">In-Lab Internship — insight into various SIGs at TCE</a>
+                </div>
               </div>
             </div>
-            </a>
+
             <div class="grid__item item w-40 h-40 text-white relative" id="item1">
               <div class="item__content h-full w-full p-4 bg-black relative border-2" id="item__content">
-                <a href="https://drive.google.com/file/d/1jB5vcscSdp72TClXuONaRvr3bqD5tyG3/view?usp=sharing">
-                  <div class="font-bold mb-2">11. Participated in Hackathon "Webster" by SVKM's NMIMS in 2023, and was
-                    qualified for the finale.</div>
+                <div class="font-bold mb-2" style="color: #90d7ff; font-size: 1rem;">🔬 Projects &amp; Research</div>
+                <div style="font-size: 0.85rem; line-height: 1.55;">
+                  • <a href="https://drive.google.com/file/d/1nSFOBjua78cHRg0dGXHFNu5WW54Ep1Pq/view?usp=share_link" style="text-decoration: underline; color: #5dfdcb;">Presented Safe Driving Assistant on Student Exhibit "Build Project" at TCE</a><br>
+                  • Working on a research paper on Stress detection using CNN with faculty
+                </div>
               </div>
             </div>
-            </a>
+
           </div>
         </section>
         <br>
@@ -2026,108 +2591,55 @@
             </a>
           </div <!-- partial:index.partial.html -->
           <div class="grid grid-flow-col auto-cols-max gap-6">
-            <div class="grid__item item w-40 h-40 text-white relative" id="item1">
-              <div class="item__content h-full w-full p-4 bg-black relative border-2" id="item__content">
-                <a href="https://drive.google.com/file/d/1OFV2EqkDIcqn0U7-TgtiGzaMOkXatAWc/view?usp=sharing">
-                  <div class="font-bold mb-2">1. Won 1st place in the PYSTAR contest conducted by TCE in 2021.</div>
-              </div>
-            </div>
-            </a>
 
             <div class="grid__item item w-40 h-40 text-white relative" id="item1">
               <div class="item__content h-full w-full p-4 bg-black relative border-2" id="item__content">
-                <a href="https://drive.google.com/file/d/1nOUH9Mb8huIKR2R3KYcxD-MSp__NDHdF/view?usp=share_link">
-                  <div class="font-bold mb-2">2. Secured 1st prize in GIMP poster design contest conducted by TCE in
-                    2022.</div>
+                <div class="font-bold mb-2" style="color: #90d7ff; font-size: 1rem;">🥇 First Place Wins</div>
+                <div style="font-size: 0.85rem; line-height: 1.55;">
+                  • <a href="https://drive.google.com/file/d/1OFV2EqkDIcqn0U7-TgtiGzaMOkXatAWc/view?usp=sharing" style="text-decoration: underline; color: #5dfdcb;">1st place — PYSTAR contest at TCE (2021)</a><br>
+                  • <a href="https://drive.google.com/file/d/1nOUH9Mb8huIKR2R3KYcxD-MSp__NDHdF/view?usp=share_link" style="text-decoration: underline; color: #5dfdcb;">1st prize — GIMP poster design contest at TCE (2022)</a>
+                </div>
               </div>
             </div>
-            </a>
-
-
-            <div class="grid__item item w-40 h-40 text-white relative" id="item1">
-              <div class="item__content h-full w-full p-4 bg-black relative border-2" id="item__content">
-                <a href="https://drive.google.com/file/d/1myok09_Rkgoak2s_kHt-p7kAiPMkEvfb/view?usp=sharing">
-                  <div class="font-bold mb-2">3. Won 2nd prize in WEB it like SPYDER event conducted by TCE in 2022.
-                  </div>
-              </div>
-            </div>
-            </a>
-            <div class="grid__item item w-40 h-40 text-white relative" id="item1">
-              <div class="item__content h-full w-full p-4 bg-black relative border-2" id="item__content">
-                <a href="https://drive.google.com/file/d/1nL0X4oLL2yQmOukpqZpQA6Ynm2ljSQ10/view?usp=share_link">
-                  <div class="font-bold mb-2">4. Won 3rd prize in Smart hackathon conducted by TCE in 2022.</div>
-              </div>
-            </div>
-            </a>
-
-            <div class="grid__item item w-40 h-40 text-white relative" id="item1">
-              <div class="item__content h-full w-full p-4 bg-black relative border-2 " id="item__content">
-                <a href="https://drive.google.com/file/d/1MSx7i0i6vurYZ76conzUKbXFKqc6HuSD/view?usp=sharing">
-                  <div class="font-bold mb-2">5. Secured 3rd place in NETWORK GURU contest conducted by TCE in 2021.
-                  </div>
-              </div>
-            </div>
-            </a>
-            <div class="grid__item item w-40 h-40 text-white relative" id="item1">
-              <div class="item__content h-full w-full p-4 bg-black relative border-2" id="item__content">
-                <a href="https://drive.google.com/file/d/1nIlJBojXu2gnnwxX562BxKbzTJhYgAad/view?usp=sharing">
-                  <div class="font-bold mb-2">6. Won 3rd prize in Sqse me database I have a query contest conducted by
-                    TCE in 2022.</div>
-              </div>
-            </div>
-            </a>
-            <div class="grid__item item w-40 h-40 text-white relative" id="item1">
-              <div class="item__content h-full w-full p-4 bg-black relative border-2" id="item__content">
-                <div class="font-bold mb-2">7. Won 3rd prize in Webathon event conducted by TCE in 2022.</div>
-              </div>
-            </div>
-            </a>
-            <div class="grid__item item w-40 h-40 text-white relative" id="item1">
-              <div class="item__content h-full w-full p-4 bg-black relative border-2" id="item__content">
-                <a href="https://drive.google.com/file/d/1KyW9NmEwRXyfz7d_bMnjIPGtZME2WTgb/view?usp=sharing">
-                  <div class="font-bold mb-2">8. Displayed my project Patatap Clone and won Best Tool Demo in F'stival
-                    at TCE in 2021.</div>
-              </div>
-            </div>
-            </a>
-            <!-- partial:index.partial.html -->
 
             <div class="grid__item item w-40 h-40 text-white relative" id="item1">
               <div class="item__content h-full w-full p-4 bg-black relative border-2" id="item__content">
-                <a href="https://drive.google.com/file/d/1Lrisvlg5KQKmJL2UcNG4pmxgle2Zs08-/view?usp=share_link">
-                  <div class="font-semibold mb-2">9. Displayed my project Stress deduction and won Best project Demo
-                    Stalls in F’stival 2022. </div>
+                <div class="font-bold mb-2" style="color: #90d7ff; font-size: 1rem;">🥈🥉 Podium Finishes</div>
+                <div style="font-size: 0.85rem; line-height: 1.55;">
+                  • <a href="https://drive.google.com/file/d/1myok09_Rkgoak2s_kHt-p7kAiPMkEvfb/view?usp=sharing" style="text-decoration: underline; color: #5dfdcb;">2nd prize — WEB it like SPYDER at TCE (2022)</a><br>
+                  • <a href="https://drive.google.com/file/d/1nL0X4oLL2yQmOukpqZpQA6Ynm2ljSQ10/view?usp=share_link" style="text-decoration: underline; color: #5dfdcb;">3rd prize — Smart Hackathon at TCE (2022)</a><br>
+                  • <a href="https://drive.google.com/file/d/1MSx7i0i6vurYZ76conzUKbXFKqc6HuSD/view?usp=sharing" style="text-decoration: underline; color: #5dfdcb;">3rd place — NETWORK GURU at TCE (2021)</a><br>
+                  • <a href="https://drive.google.com/file/d/1nIlJBojXu2gnnwxX562BxKbzTJhYgAad/view?usp=sharing" style="text-decoration: underline; color: #5dfdcb;">3rd prize — SQL Database Query contest at TCE (2022)</a><br>
+                  • 3rd prize — Webathon at TCE (2022)<br>
+                  • <a href="https://drive.google.com/file/d/1nE5VsCtIA8i7kkRvKlWg8rghPo3mRoc3/view?usp=sharing" style="text-decoration: underline; color: #5dfdcb;">3rd prize — Non-technical debate (team)</a>
+                </div>
               </div>
             </div>
-            </a>
+
             <div class="grid__item item w-40 h-40 text-white relative" id="item1">
               <div class="item__content h-full w-full p-4 bg-black relative border-2" id="item__content">
-                <a href="https://drive.google.com/file/d/1lkno23Rua5WemcqfKHD_2jSdKyXvFPo9/view?usp=sharing">
-                  <div class="font-bold mb-2">10. Participated in a Non-Technical way to website contest conducted by
-                    CSEA of TCE. </div>
+                <div class="font-bold mb-2" style="color: #90d7ff; font-size: 1rem;">⭐ Best Demo &amp; Special Awards</div>
+                <div style="font-size: 0.85rem; line-height: 1.55;">
+                  • <a href="https://drive.google.com/file/d/1KyW9NmEwRXyfz7d_bMnjIPGtZME2WTgb/view?usp=sharing" style="text-decoration: underline; color: #5dfdcb;">Best Tool Demo — Patatap Clone at F'stival 2021</a><br>
+                  • <a href="https://drive.google.com/file/d/1Lrisvlg5KQKmJL2UcNG4pmxgle2Zs08-/view?usp=share_link" style="text-decoration: underline; color: #5dfdcb;">Best Project Demo — Stress Detection at F'stival 2022</a><br>
+                  • <a href="https://drive.google.com/file/d/1lkno23Rua5WemcqfKHD_2jSdKyXvFPo9/view?usp=sharing" style="text-decoration: underline; color: #5dfdcb;">Non-Technical way to website contest by CSEA of TCE</a>
+                </div>
               </div>
             </div>
-            </a>
+
             <div class="grid__item item w-40 h-40 text-white relative" id="item1">
               <div class="item__content h-full w-full p-4 bg-black relative border-2" id="item__content">
-                <a href="https://drive.google.com/file/d/1nE5VsCtIA8i7kkRvKlWg8rghPo3mRoc3/view?usp=sharing">
-                  <div class="font-bold mb-2">11. Participated in a Non technical debate event won 3rd prize as a
-                    team.
-                  </div>
+                <div class="font-bold mb-2" style="color: #90d7ff; font-size: 1rem;">📄 Research Publication</div>
+                <div style="font-size: 0.85rem; line-height: 1.55;">
+                  • <a href="https://drive.google.com/file/d/1nZeo3MLIyj3tvb13EGbWXkq_qniIphlo/view?usp=sharing" style="text-decoration: underline; color: #5dfdcb;">Presented research paper at IEEE International Conference INC4 (2023)</a>
+                </div>
               </div>
             </div>
-            </a>
-            <div class="grid__item item w-40 h-40 text-white relative" id="item1">
-              <div class="item__content h-full w-full p-4 bg-black relative border-2" id="item__content">
-                <a href="https://drive.google.com/file/d/1nZeo3MLIyj3tvb13EGbWXkq_qniIphlo/view?usp=sharing">
-                  <div class="font-semibold mb-2">12. Presented a research paper in the 2023 IEEE International
-                    Conference INC4.</div>
-              </div>
-            </div>
-            </a>
+
           </div>
         </section>
       </div>
+    </div>
     </div>
 
   </section>
